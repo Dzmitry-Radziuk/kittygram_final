@@ -5,7 +5,7 @@ volumes:
   pg_data_production_kittygram:
   static_volume_kittygram:
 
-# Всё отличие — заменяем build на image и указываем, какой образ использовать
+# Всё отличие — заменяем build на image и указываем, какой образ использовать.
 services:
   db:
     image: postgres:13.10
