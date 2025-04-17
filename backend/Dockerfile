@@ -10,4 +10,4 @@ RUN pip install -r requirements.txt --no-cache-dir
 
 COPY . .
 
-CMD ["gunicorn", "--bind", "0.0.0.0:9000", "kittygram_backend.wsgi"]  
+CMD mkdir -p /media/cat_images && gunicorn --bind 0.0.0.0:9000 kittygram_backend.wsgi  
