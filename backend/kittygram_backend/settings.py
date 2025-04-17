@@ -11,7 +11,7 @@ load_dotenv()
 SECRET_KEY = os.getenv('SECRET_KEY')
 
 if not SECRET_KEY:
-    raise ValueError("Невозможно получить SECRET_KEY из переменной окружения.")
+    raise ValueError("Невозможно получить SECRET_KEY из переменной окружения...")
 
 DEBUG = False
 
