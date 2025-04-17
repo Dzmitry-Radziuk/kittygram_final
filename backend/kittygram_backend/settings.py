@@ -13,7 +13,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 if not SECRET_KEY:
     raise ValueError("Невозможно получить SECRET_KEY из переменной окружения...")
 
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['yapkitty.sytes.net', 'localhost', '127.0.0.1']
 
