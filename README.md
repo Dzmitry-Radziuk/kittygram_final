@@ -1,6 +1,6 @@
 # 🐱 Kittygram
 
-![Main Kittygram workflow](https://github.com/Port-tf/kittygram/actions/workflows/main.yml/badge.svg)
+![CI](https://github.com/Port-tf/kittygram/actions/workflows/main.yml/badge.svg)
 
 Kittygram — это веб-сервис, на котором пользователи могут делиться фотографиями своих кошек, добавлять информацию о них и просматривать профили других котиков.
 
