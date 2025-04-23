@@ -100,9 +100,8 @@ kittygram_domain: https://<ваш_домен_kittygram>
 taski_domain: https://<ваш_домен_taski>
 dockerhub_username: <ваш_логин_на_докерхабе>
 
-## Тесты можно запустить локально командой:
+Тесты можно запустить локально командой:
 
-```bash
 cd backend/
 pytest
 ```
