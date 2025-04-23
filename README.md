@@ -94,7 +94,7 @@ python manage.py runserver
 
 ## 🧪 Тестирование
 ## Для запуска автотестов необходимо указать необходимые данные в tests.yml:
-
+```bash
 repo_owner: Dzmitry-Radziuk
 kittygram_domain: https://<ваш_домен_kittygram>
 taski_domain: https://<ваш_домен_taski>
